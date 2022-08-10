@@ -1,12 +1,21 @@
 
 .jumbotron {
+    
+    background-image: url('img/bg5.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
     padding-top: 6rem;
-    background-color:lightsteelblue;
+    
     
 }
 
 #projects {
-  
+    background-image: url('img/cover1.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
     background-color:lightsteelblue;
 }
 
@@ -22,8 +31,11 @@ footer {
 }
 
 
+.galery-img {
+    width: 100%;
 
-.copyright {
-    
-   
+}
+
+#galery .row > * {
+    padding: 0;
 }
